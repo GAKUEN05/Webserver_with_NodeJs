@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <title>Simple Node.js Server</title>
+  </head>
+  <body>
+    <%- include ('partial/nav.ejs') -%>
+    <h1>Hello, Node.js <%= person %></h1>
+    <p>Age : <%= data.age %></p>
+    <p>Job : <%= data.job %></p>
+    <p>Welcome to the profile of <%= person %></p>
+    <h2>Hobbies</h2>
+    <ul>
+      <% data.hobbies.forEach(function(element) { %>
+      <li><%= element %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+1) the util module is very useful when we want to make an object inherit some properties or methods
+
+---------------------------------------The fs Module---------------------------------------------
+1) Tips for reading and writing files in synchronous and asynchronous ways
+	- fs.readFile('filename', 'encoding_type', function(err, data){})
+	- fs.writeFile('filename', data, function(err, data){})
+	- in synchronous mode we do not need call back function
+2) fs.unlink('file_path') is used to removea particular file from a directory
+3) fs.rmdir('dir_path') is used to remove a particular directory only if it's empty
