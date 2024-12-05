@@ -17,9 +17,9 @@ Before starting, ensure that you have the following installed:
    ```sh
    git clone https://github.com/GAKUEN05/Dashboard_app.git
 2. **Install dependencies**:
--npm install
+npm install
 
 ## Usage
 
 To run the application, execute the following command:
--node app.js
+node app.js
